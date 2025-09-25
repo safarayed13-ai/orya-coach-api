@@ -1,9 +1,8 @@
-printf '%s\n' \
-'{' \
-'  "name": "orya-coach-api",' \
-'  "private": true,' \
-'  "engines": { "node": "20.x" },' \
-'  "dependencies": {' \
-'    "openai": "^4.56.0"' \
-'  }' \
-'}' > package.json
+{
+  "name": "orya-coach-api",
+  "private": true,
+  "engines": { "node": "20.x" },
+  "dependencies": {
+    "openai": "^4.56.0"
+  }
+}
